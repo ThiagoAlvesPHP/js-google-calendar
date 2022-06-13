@@ -1,0 +1,13 @@
+const CLIENT_ID = '';
+const API_KEY = '';
+
+const DISCOVERY_DOC = 'https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest';
+const SCOPES = 'https://www.googleapis.com/auth/calendar.events';
+
+let tokenClient;
+let gapiInited = false;
+let gisInited = false;
+
+const summary = 'LT Developer';
+const local = 'R. Botuverá, 261 - Dom Joaquim, Brusque - SC, 88359-002';
+const emailPrimary = 'thioalves@gmail.com';
